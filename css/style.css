@@ -119,6 +119,22 @@
   }
 }
 
+.list-item {
+  list-style: none;
+  position: relative;
+  padding: 8px 8px 8px 72px;
+  margin-bottom: 48px;
+}
+.list-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -8px;
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+
 h1 {
   color: #161617;
   font-family: "Sora", sans-serif;
@@ -561,6 +577,37 @@ a:hover {
   transform: scale(1.02);
 }
 
+.link {
+  display: inline-block;
+  color: #82269E;
+  background-image: url("../assets/svg/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  font-size: 18px;
+  padding: 16px 16px 16px 40px;
+  position: relative;
+  cursor: pointer;
+}
+.link::after {
+  content: "";
+  position: absolute;
+  top: 75%;
+  left: 56px;
+  width: 0%;
+  height: 2px;
+  transition: 0.5s ease;
+  border-radius: 2px;
+  background-color: #BB71D2;
+}
+.link:hover {
+  opacity: 0.8;
+  padding-left: 64px;
+  background-position: 8px 50%;
+}
+.link:hover::after {
+  width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -584,6 +631,7 @@ svg, img {
 
 header {
   width: 100%;
+  height: 72px;
   background-color: transparent;
   box-shadow: none;
   position: fixed;
@@ -847,6 +895,43 @@ header {
 
 .dropshadow {
   filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+}
+
+.bg-icon-mobile::after {
+  background-image: url("../assets/svg/icon-mobile.svg");
+  background-size: cover;
+  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.bg-icon-mobile:hover::after {
+  transform: scale(1.05);
+}
+
+.bg-icon-card::after {
+  background-image: url("../assets/svg/icon-card.svg");
+  background-size: cover;
+  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.bg-icon-card:hover::after {
+  transform: scale(1.05);
+}
+
+.bg-icon-check::after {
+  background-image: url("../assets/svg/icon-check.svg");
+  background-size: cover;
+  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+  transition: 0.5s ease;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  top: 8px;
+  left: 8px;
+}
+.bg-icon-check:hover::after {
+  transform: scale(1.05);
 }
 
 .div-card {
