@@ -235,3 +235,27 @@ $container-s: 540px;
         align-items: center;
     }
 }
+
+// SECTION INVITE
+.bg-invite{
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+.svg-invite {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    // Centralizar o eixo no meio da imagem
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+
+    z-index: -1;
+
+    @include responsive(m) {
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+}

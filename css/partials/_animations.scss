@@ -359,3 +359,26 @@ $height-card: 0.63 * $width-card;
 
     }
 }
+
+// SECTION INVITE
+.fignu5-ball1 {
+    animation: translate-ball 4s ease infinite alternate;
+}
+.fignu5-ball2 {
+    animation: translate-ball 4s ease infinite 1s alternate;
+}
+.fignu5-ball3 {
+    animation: translate-ball 4s ease infinite 2s alternate;
+}
+.fignu5-ball4 {
+    animation: translate-ball 4s ease infinite 3s alternate;
+}
+
+@keyframes translate-ball {
+    0% {
+        transform: translate3d(0,0,0);
+    }
+    100% {
+        transform: translate3d(200px,-100px,0);
+    }
+}
