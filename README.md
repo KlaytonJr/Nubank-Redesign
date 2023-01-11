@@ -31,6 +31,10 @@ The project is very focused on UI Design and Motion Design, to animate the usabi
 - [X] UI Redesign
 - [X] Motion Design
 - [X] Front end Animations
+- [X] Responsivity
+- [X] Pixel Perfect
+- [X] SVG Injection
+- [X] Figma
 
 ## 💻 Project
 
@@ -39,6 +43,11 @@ This project is a redesign of Nubank, a digital bank from Brazil. And I did on F
 You can view the project through this link <a href="https://klaytonjr.github.io/todo-ninja-vuetify/">Click here</a>.
 
 ## Screenshots
-<img src="https://i.imgur.com/dM7Gisy.png" alt="screenshot initial screen" />
-<img src="https://i.imgur.com/yFJEHyz.png" alt="screenshot teams screen" />
-<img src="https://i.imgur.com/Dqt2dGz.png" alt="screenshot My Projects screen" />
+<img src="https://github.com/KlaytonJr/Nubank-Redesign/blob/main/assets/screenshots/nav.png?raw=true" alt="screenshot navbar" />
+<img src="https://github.com/KlaytonJr/Nubank-Redesign/blob/main/assets/screenshots/hero.png?raw=true" alt="screenshot Hero" />
+<img src="https://github.com/KlaytonJr/Nubank-Redesign/blob/main/assets/screenshots/people.png?raw=true" alt="screenshot People" />
+<img src="https://github.com/KlaytonJr/Nubank-Redesign/blob/main/assets/screenshots/best.png?raw=true" alt="screenshot Best" />
+<img src="https://github.com/KlaytonJr/Nubank-Redesign/blob/main/assets/screenshots/digital_account.png?raw=true" alt="screenshot Digital Account" />
+<img src="https://github.com/KlaytonJr/Nubank-Redesign/blob/main/assets/screenshots/slider.png?raw=true" alt="screenshot Slider" />
+<img src="https://github.com/KlaytonJr/Nubank-Redesign/blob/main/assets/screenshots/app_bank.png?raw=true" alt="screenshot App Bank" />
+<img src="https://github.com/KlaytonJr/Nubank-Redesign/blob/main/assets/screenshots/invite.png?raw=true" alt="screenshot Invite" />
