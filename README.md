@@ -24,6 +24,7 @@ The project is very focused on UI Design and Motion Design, to animate the usabi
   <li>SCSS</li>
   <li>GSAP</li>
   <li>SVG Inject</li>
+  <li>AOS Animate</li>
 </ul>
 
 ### Developed abilities:
