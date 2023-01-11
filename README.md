@@ -40,7 +40,7 @@ The project is very focused on UI Design and Motion Design, to animate the usabi
 
 This project is a redesign of Nubank, a digital bank from Brazil. And I did on Front PUSH course, to practice the abilities developed on the course.
 
-You can view the project through this link <a href="https://klaytonjr.github.io/todo-ninja-vuetify/">Click here</a>.
+You can view the project through this link <a href="https://klaytonjr.github.io/Nubank-Redesign/">Click here</a>.
 
 ## Screenshots
 <img src="https://github.com/KlaytonJr/Nubank-Redesign/blob/main/assets/screenshots/nav.png?raw=true" alt="screenshot navbar" />
